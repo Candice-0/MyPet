@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyPet</string>
+    <string name="title_home">我的宠物</string>
+    <string name="title_dashboard">照片墙</string>
+    <string name="title_notifications">日志</string>
+
+    <string name="yes">确定</string>
+    <string name="cancel">取消</string>
+
+    <string name="submit">确定</string>
+
+</resources>

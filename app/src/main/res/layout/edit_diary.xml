@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="80dp"
+        android:layout_height="34dp"
+        android:layout_row="0"
+        android:layout_column="0"
+
+        android:text="   标题" />
+
+    <EditText
+        android:id="@+id/editTitle"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:ems="10"
+        android:hint="输入不能为空！" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:ems="10"
+        android:text="   日期" />
+
+    <EditText
+        android:id="@+id/editDate"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:ems="10"
+        android:hint="输入格式为 xxxx-xx-xx" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="80dp"
+        android:layout_height="34dp"
+        android:layout_row="2"
+        android:layout_column="0"
+
+        android:text="   内容" />
+
+    <EditText
+        android:id="@+id/editContent"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="1"
+        android:ems="10"
+        android:hint="输入不能为空！" />
+
+
+
+</GridLayout>
